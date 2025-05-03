@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="prjkt" fetch="https://github.com/zaidanprjkt" />
+        <remote name="gf" fetch="https://github.com/greenforce-project" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="prjkt" revision="thirteen" clone-depth="1" />
+        <project path="device/xiaomi/lime" name="device_xiaomi_lime" remote="prjkt" revision="thirteen" clone-depth="1" />
+        <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="prjkt" revision="thirteen" clone-depth="1" />
+        <project path="vendor/xiaomi/lime" name="vendor_xiaomi_lime" remote="prjkt" revision="thirteen" clone-depth="1" />
+        <project path="kernel/xiaomi/sm6115" name="frstprjkt/kernel_xiaomi_chime-anya" remote="github" revision="twelve" clone-depth="1" />
+
+        
+       </manifest>
+ 
